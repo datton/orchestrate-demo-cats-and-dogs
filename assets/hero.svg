@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t d"><title id="t">A French Bulldog and a Siamese cat side by side</title><desc id="d">On the left a fawn French Bulldog with large bat ears and a flat face; on the right a Siamese cat with cream fur, dark brown ears and face mask, and bright blue eyes, on a warm brown background with paw prints.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b1d16"/><stop offset=".65" stop-color="#4a2e1f"/><stop offset="1" stop-color="#6b3d22"/></linearGradient>
+<radialGradient id="mask"><stop offset="0" stop-color="#5a3a28"/><stop offset=".7" stop-color="#7a523d" stop-opacity=".85"/><stop offset="1" stop-color="#a07a5e" stop-opacity="0"/></radialGradient>
+<g id="paw"><ellipse cx="0" cy="8" rx="9" ry="7"/><circle cx="-11" cy="-4" r="4"/><circle cx="-4" cy="-10" r="4"/><circle cx="5" cy="-10" r="4"/><circle cx="12" cy="-4" r="4"/></g>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<g fill="#f4c95d" opacity=".18"><use href="#paw" transform="translate(470 70) rotate(15)"/><use href="#paw" transform="translate(500 150) rotate(-10)"/><use href="#paw" transform="translate(465 235) rotate(20)"/><use href="#paw" transform="translate(495 320) rotate(-5)"/></g>
+<!-- French Bulldog -->
+<g>
+<path d="M130 215 108 70q40-12 82 62z" fill="#d9a572"/><path d="M135 195 122 95q22-4 44 38z" fill="#e9a9a0"/>
+<path d="M350 215 372 70q-40-12-82 62z" fill="#d9a572"/><path d="M345 195 358 95q-22-4-44 38z" fill="#e9a9a0"/>
+<ellipse cx="240" cy="240" rx="122" ry="105" fill="#e0b484"/>
+<path d="M190 160q50-18 100 0" fill="none" stroke="#c48f5c" stroke-width="5" stroke-linecap="round"/><path d="M205 178q35-10 70 0" fill="none" stroke="#c48f5c" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="240" cy="290" rx="68" ry="46" fill="#f2d3a8"/>
+<circle cx="190" cy="228" r="14" fill="#2b1d16"/><circle cx="290" cy="228" r="14" fill="#2b1d16"/><circle cx="194" cy="223" r="4.5" fill="#fff8ee"/><circle cx="294" cy="223" r="4.5" fill="#fff8ee"/>
+<ellipse cx="240" cy="268" rx="26" ry="17" fill="#2b1d16"/><ellipse cx="233" cy="263" rx="7" ry="3.5" fill="#6b5646"/>
+<path d="M240 285v14M240 299q-20 14-38 0M240 299q20 14 38 0" fill="none" stroke="#2b1d16" stroke-width="4" stroke-linecap="round"/>
+<path d="M205 318q35 22 70 0" fill="#e9a9a0" stroke="none"/>
+</g>
+<!-- Siamese cat -->
+<g>
+<path d="M625 215 612 82l92 58z" fill="#5a3a28"/><path d="M630 190 624 112l50 36z" fill="#a8765a"/>
+<path d="M815 215 828 82l-92 58z" fill="#5a3a28"/><path d="M810 190 816 112l-50 36z" fill="#a8765a"/>
+<ellipse cx="720" cy="245" rx="105" ry="92" fill="#f3e3c8"/>
+<ellipse cx="720" cy="275" rx="62" ry="50" fill="url(#mask)"/>
+<path d="M718 210 710 270h20z" fill="url(#mask)"/>
+<ellipse cx="678" cy="228" rx="22" ry="12" transform="rotate(12 678 228)" fill="#4aa3e0"/><ellipse cx="762" cy="228" rx="22" ry="12" transform="rotate(-12 762 228)" fill="#4aa3e0"/>
+<ellipse cx="678" cy="228" rx="4.5" ry="10" fill="#150d0a"/><ellipse cx="762" cy="228" rx="4.5" ry="10" fill="#150d0a"/>
+<path d="M708 262h24l-12 12z" fill="#d98a8a"/>
+<path d="M720 274v10M720 284q-14 12-28 2M720 284q14 12 28 2" fill="none" stroke="#3b2418" stroke-width="3" stroke-linecap="round"/>
+<g stroke="#fff8ee" stroke-width="2" stroke-linecap="round" opacity=".85"><path d="M660 276 595 262M660 286 595 292M780 276 845 262M780 286 845 292"/></g>
+</g>
+</svg>
