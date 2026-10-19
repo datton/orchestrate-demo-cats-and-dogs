@@ -1,0 +1,4 @@
+/* Layout, header, nav, footer: owned by UI/UX */
+body { margin: 0; }
+.site-header, main, .site-footer { max-width: 60rem; margin: 0 auto; padding: var(--space); }
+.site-header nav ul { display: flex; flex-wrap: wrap; gap: var(--space); list-style: none; padding: 0; margin: 0; }
