@@ -1,28 +1,28 @@
-/* Design tokens for Cats and Dogs ("Sunny Day" reskin).
-   Palette: bright cream paper, soft cocoa ink, apricot bands, marmalade for
-   action, Siamese-eye blue for highlights. Light and friendly throughout.
+/* Design tokens for Cats and Dogs ("Ocean" reskin).
+   Palette: sandy cream paper, sea-foam cards, aqua and sky bands, ocean blue for
+   action, warm coral accent. Deep teal-navy ink; no brown anywhere in the UI.
    Every text/background pair below meets WCAG AA (4.5:1) or better. */
 :root {
   /* Colour: surfaces */
-  --color-paper: #fffdf8;        /* page background */
-  --color-mist: #fff1dc;         /* cards, alternate bands (soft apricot) */
-  --color-deep: #ffe6c2;         /* header and footer band: now a light apricot */
+  --color-paper: #fffaf0;        /* sandy cream page background */
+  --color-mist: #e3f6f3;         /* sea-foam cards and alternate bands */
+  --color-deep: #d4f1f4;         /* header/footer band: light aqua */
   /* Colour: text */
-  --color-ink: #3b2a21;          /* body text on paper 13.4:1 */
-  --color-ink-soft: #6a5547;     /* secondary text on paper 6.9:1, on mist 6.3:1 */
-  --color-on-deep: #3b2a21;      /* text on the apricot band 11.3:1 */
+  --color-ink: #12343b;          /* deep teal-navy text: paper 12.8:1, mist 11.9:1, band 11.2:1 */
+  --color-ink-soft: #3f5f68;     /* secondary text: paper 6.6:1, mist 6.2:1 */
+  --color-on-deep: #12343b;      /* text on the aqua band 11.2:1 */
   /* Colour: accents */
-  --color-primary: #b23a0a;      /* links, buttons on paper 5.9:1, on mist 5.4:1, on band 5.0:1; white on it 6:1 */
-  --color-highlight: #1f6aa5;    /* eyebrows on paper 5.6:1, on mist 5.2:1 */
-  --color-primary-light: #9a3208;  /* links on the apricot band (footer): darker than primary, 6:1 */
-  --color-highlight-light: #195d94;  /* highlight on the apricot band, 5:1 or better */
-  --color-gold: #8a3410;         /* current-page marker on the band 7:1 */
-  --color-focus: #1f6aa5;
-  --color-line: #f0dcc0;         /* borders and rules */
+  --color-primary: #0b6a8f;      /* ocean blue links/buttons: paper 5.8:1, mist 5.4:1, band 5.1:1; white on it 6.1:1 */
+  --color-highlight: #c0452b;    /* coral accent text: paper 4.9:1, mist 4.5:1 */
+  --color-primary-light: #07546f;  /* links on the aqua/sky band (footer): 6.5:1 or better */
+  --color-highlight-light: #07546f;  /* highlight on the band: 6.5:1 or better */
+  --color-gold: #07546f;         /* current-page marker on the band 6.5:1 or better */
+  --color-focus: #0a4f9e;         /* focus ring: paper 7.7:1, band 6.2:1 */
+  --color-line: #bfe4e6;         /* borders and rules */
 
   /* Gradients for hero and bands */
-  --gradient-deep: linear-gradient(135deg, #ffe6c2 0%, #ffd9d0 100%);
-  --gradient-spark: linear-gradient(90deg, #ff9a62, #4aa3e0);
+  --gradient-deep: linear-gradient(135deg, #d4f1f4 0%, #cfe5fb 100%);
+  --gradient-spark: linear-gradient(90deg, #ff7f66, #35c2c9);
 
   /* Type: system fonts only */
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -55,7 +55,7 @@
   --radius-sm: 10px;
   --radius-md: 20px;
   --radius-lg: 32px;
-  --shadow-card: 0 2px 4px rgba(120, 70, 30, 0.06), 0 10px 28px rgba(178, 58, 10, 0.1);
+  --shadow-card: 0 2px 4px rgba(18, 52, 59, 0.06), 0 10px 28px rgba(11, 106, 143, 0.12);
   --content-width: 70rem;
 
   /* Aliases kept so existing stylesheets keep working */

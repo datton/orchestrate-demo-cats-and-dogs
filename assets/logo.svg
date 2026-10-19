@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t"><title id="t">Cats and Dogs logo</title>
-<rect width="64" height="64" rx="16" fill="#ffe6c2"/>
-<path d="M14 30 12 12l12 8zM50 30l2-18-12 8z" fill="#ff9a62"/>
+<rect width="64" height="64" rx="16" fill="#d4f1f4"/>
+<path d="M14 30 12 12l12 8zM50 30l2-18-12 8z" fill="#ff7f66"/>
 <ellipse cx="32" cy="36" rx="19" ry="16" fill="#fff"/>
-<circle cx="25" cy="33" r="2.6" fill="#3b2a21"/><circle cx="39" cy="33" r="2.6" fill="#3b2a21"/>
-<path d="M29 40h6l-3 3z" fill="#b23a0a"/></svg>
+<circle cx="25" cy="33" r="2.6" fill="#12343b"/><circle cx="39" cy="33" r="2.6" fill="#12343b"/>
+<path d="M29 40h6l-3 3z" fill="#0b6a8f"/></svg>
